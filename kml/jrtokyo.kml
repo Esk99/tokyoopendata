@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document id="root_doc">
+<Schema name="jrtokyo" id="jrtokyo">
+	<SimpleField name="id" type="string"></SimpleField>
+	<SimpleField name="postalcoad" type="string"></SimpleField>
+	<SimpleField name="country" type="string"></SimpleField>
+	<SimpleField name="province" type="string"></SimpleField>
+	<SimpleField name="city" type="string"></SimpleField>
+	<SimpleField name="address1" type="string"></SimpleField>
+	<SimpleField name="address2" type="string"></SimpleField>
+	<SimpleField name="address3" type="string"></SimpleField>
+	<SimpleField name="address4" type="string"></SimpleField>
+	<SimpleField name="category" type="string"></SimpleField>
+	<SimpleField name="hours1" type="string"></SimpleField>
+	<SimpleField name="hours2" type="string"></SimpleField>
+	<SimpleField name="phone" type="string"></SimpleField>
+	<SimpleField name="website" type="string"></SimpleField>
+	<SimpleField name="source" type="string"></SimpleField>
+</Schema>
+<Folder><name>jrtokyo</name>
+  <Placemark>
+	<name>JR譚ｱ莠ｬ鬧</name>
+	<Style><LineStyle><color>ff0000ff</color></LineStyle><PolyStyle><fill>0</fill></PolyStyle></Style>
+	<ExtendedData><SchemaData schemaUrl="#jrtokyo">
+		<SimpleData name="id">803d16bcea3d426db3724875a64f9807</SimpleData>
+		<SimpleData name="postalcoad">100-0005</SimpleData>
+		<SimpleData name="country">譌･譛ｬ</SimpleData>
+		<SimpleData name="province">譚ｱ莠ｬ驛ｽ</SimpleData>
+		<SimpleData name="city">蜊ｻ｣逕ｰ蛹ｺ</SimpleData>
+		<SimpleData name="address1">荳ｸ縺ｮ蜀</SimpleData>
+		<SimpleData name="address2">1-9-1</SimpleData>
+		<SimpleData name="category">A001</SimpleData>
+		<SimpleData name="source">1</SimpleData>
+	</SchemaData></ExtendedData>
+      <Polygon><outerBoundaryIs><LinearRing><coordinates>139.769581198752,35.6838570077684,0 139.769432711161,35.6825444569751,0 139.769983393922,35.6818296064679,0 139.768079320182,35.6786479210538,0 139.766751421608,35.6769422228669,0 139.764079790246,35.6773846154574,0 139.762409586119,35.6779358770796,0 139.762743837202,35.6784973931735,0 139.763033899436,35.679148872536,0 139.763669283258,35.6808055796314,0 139.764192567939,35.6822014875461,0 139.764924521812,35.6831074206902,0 139.766257899792,35.6835339220837,0 139.767472038345,35.6843233847875,0 139.768251780146,35.6841742077875,0 139.769581198752,35.6838570077684,0</coordinates></LinearRing></outerBoundaryIs></Polygon>
+  </Placemark>
+</Folder>
+</Document></kml>
